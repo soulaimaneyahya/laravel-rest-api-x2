@@ -1,0 +1,21 @@
+# Errors message:
+
+/POST create: {{url}}/users
+
+Raw:
+{
+    "name": "soulaimane yahya",
+    "email": "soulaimaneyahya@gmail.com",
+    "password": "Pa$$w0rd!",
+    "password_confirmation": "Pa$$w0rd!"
+}
+
+Result:
+{
+    "message": "The email has already been taken.",
+    "errors": {
+        "email": [
+            "The email has already been taken."
+        ]
+    }
+}
